@@ -2,46 +2,52 @@
   <img src="https://raw.githubusercontent.com/SourceState-io/.github/main/profile/assets/header.svg" alt="SourceState" width="100%">
 </a>
 
-# Financial research that shows its work.
+# Financial data, with receipts.
 
-SourceState builds financial data and research tools that connect a number
-to its filing, a model to its assumptions, and a decision to its evidence.
+One sentence in a footnote can move a forecast. Weeks later, someone asks
+why the number changed.
+
+SourceState keeps that trail: the filing, the calculation, the assumption
+and the decision. We build financial data and research tools for people
+who keep asking where a number came from.
 
 [Website](https://sourcestate.io/) ·
-[Data foundation](https://sourcestate.io/data) ·
-[Developers](https://sourcestate.io/#developers) ·
+[Open source](#open-source) ·
 [Reference](https://sourcestate.io/reference/)
 
-## From the filing to the decision
+## Open source
 
-- **Read the source.** Original financial statements, tagged facts, notes and
-  disclosures, with the company's own labels, periods and document locations.
-- **Keep the context.** Reported facts, calculations and analyst assumptions
-  remain distinct. Comparisons preserve the underlying source evidence.
-- **Trace the change.** Connect new disclosures to the models they affect,
-  and retain the reasoning behind each reviewed decision.
+We're opening up the reusable parts of that work. Tools you can drop into
+your own notebooks, research workflows and data pipelines.
 
-Explore the [data foundation](https://sourcestate.io/data) or see the
-[research workflow](https://sourcestate.io/#workflow) in the product preview.
-
-## Developer tools
+If they help you build something we haven't thought of, even better.
 
 ### OpenCorpFilings
 
-Global company filings through one Python API: SEC EDGAR, Companies House,
-EDINET, AMF/DILA and ESEF. Retrieve original documents and financial statements
-as filed, with text, tables and raw XBRL/iXBRL facts alongside source IDs,
-dates and URLs.
+Every regulator has its own way of doing things. OpenCorpFilings gives you
+one Python API for SEC EDGAR, Companies House, EDINET, AMF/DILA and ESEF:
+original documents, text, tables and raw XBRL/iXBRL facts, with source IDs,
+dates and URLs still attached.
 
-**Public release in preparation.** The library is currently released
-privately. Its repository and documentation will be linked here at launch.
+Built to run independently of the SourceState product. Use it in a notebook,
+a pipeline, or something completely different.
 
-The broader SourceState platform also offers a
+**Public release in preparation.** Code and documentation will be linked
+here at launch.
+
+## Inside SourceState
+
+The wider product follows the trail into your model: new disclosures,
+the inputs they touch, and the decisions you review.
+
+[See the workflow](https://sourcestate.io/#workflow) in the product preview,
+explore the [data foundation](https://sourcestate.io/data), or look at the
 [JSON API in early access](https://sourcestate.io/#developers).
 
-## Work with SourceState
+## Bring your weird filings.
 
-For the product preview and access enquiries, visit
-[sourcestate.io](https://sourcestate.io/).
-Our [Reference](https://sourcestate.io/reference/) explains filing data,
-financial disclosures and the choices behind comparable numbers.
+The ZIP inside a ZIP. The company that renamed itself. The footnote that
+makes a mess of your neat model. We'd like to hear about it.
+
+[Say hello](mailto:info@sourcestate.io) and tell us what you're building,
+or what's getting in your way.
