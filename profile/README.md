@@ -32,8 +32,9 @@ dates and URLs still attached.
 Built to run independently of the SourceState product. Use it in a notebook,
 a pipeline, or something completely different.
 
-**Public release in preparation.** Code and documentation will be linked
-here at launch.
+[Repository](https://github.com/SourceState-io/opencorpfilings) ·
+[Documentation](https://sourcestate-io.github.io/opencorpfilings/) ·
+[Example notebooks](https://github.com/SourceState-io/opencorpfilings/tree/main/examples/notebooks)
 
 ## Inside SourceState
 
